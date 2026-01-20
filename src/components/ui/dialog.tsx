@@ -43,28 +43,37 @@ const Dialog = ({ children, open, onOpenChange }: {
   );
 };
 
+import { createPortal } from 'react-dom';
+
 const DialogContent = ({ children, className }: {
   children: React.ReactNode;
   className?: string;
 }) => {
   const context = React.useContext(DialogContext);
+  const [mounted, setMounted] = React.useState(false);
 
-  if (!context?.open) {
+  React.useEffect(() => {
+    setMounted(true);
+    return () => setMounted(false);
+  }, []);
+
+  if (!context?.open || !mounted) {
     return null;
   }
 
-  return (
+  return createPortal(
     <div
-      className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4"
+      className="fixed inset-0 z-[9999] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4"
       onClick={() => context.onOpenChange(false)}
     >
       <div
-        className={`glass-card rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto ${className || ''}`}
+        className={`glass-card rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto shadow-2xl animate-in fade-in zoom-in-95 duration-200 ${className || ''}`}
         onClick={(e) => e.stopPropagation()}
       >
         {children}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };
 
