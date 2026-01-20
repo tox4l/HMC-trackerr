@@ -104,6 +104,14 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
+.glass-dialog {
+  background: rgba(20, 20, 22, 0.95);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
 /* Animations */
 .fade-in {
   animation: fadeIn 0.8s ease-out forwards;
