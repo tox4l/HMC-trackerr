@@ -21,13 +21,28 @@ import { Badge } from "@/components/ui/badge";
 export default function Home() {
   // 1. Calculate Summary Stats
   const totalVehicles = mockVehicles.length;
-  const criticalIssues = mockVehicles.filter(v => v.healthStatus === 'Critical').length;
-  const activeAlerts = mockVehicles.reduce((acc, v) => acc + (v.devices.filter(d => d.status === 'Warning' || d.status === 'Critical').length), 0);
+
+  // Type-safe helper to determine vehicle health since it's not on the type
+  const getVehicleHealth = (v: typeof mockVehicles[0]) => {
+    const criticalDevices = v.devices.filter(d => d.status === 'overdue' || (d.status === 'due' && d.criticality === 'critical')).length;
+    if (criticalDevices > 0) return 'Critical';
+    const warningDevices = v.devices.filter(d => d.status === 'due').length;
+    if (warningDevices > 0) return 'Attention';
+    return 'Good';
+  };
+
+  const criticalIssues = mockVehicles.filter(v => getVehicleHealth(v) === 'Critical').length;
+
+  const activeAlerts = mockVehicles.reduce((acc, v) => acc + (v.devices.filter(d => d.status === 'due' || d.status === 'overdue').length), 0);
+
   const operationalRate = Math.round(((totalVehicles - criticalIssues) / totalVehicles) * 100);
 
   // 2. Get Recent Critical Items (Simulated "Critical" Feed)
   const criticalVehicles = mockVehicles
-    .filter(v => v.healthStatus === 'Critical' || v.healthStatus === 'Attention')
+    .filter(v => {
+      const health = getVehicleHealth(v);
+      return health === 'Critical' || health === 'Attention';
+    })
     .slice(0, 3); // Top 3
 
   return (
@@ -131,10 +146,12 @@ export default function Home() {
                         <div>
                           <div className="flex items-center gap-2 mb-1">
                             <h3 className="font-bold text-lg">{vehicle.name}</h3>
-                            <Badge className="bg-red-500/20 text-red-200 border-red-500/30">Critical</Badge>
+                            <Badge className="bg-red-500/20 text-red-200 border-red-500/30">
+                              {getVehicleHealth(vehicle)}
+                            </Badge>
                           </div>
                           <p className="text-sm text-slate-400">
-                            {vehicle.type} • {vehicle.devices.filter(d => d.status === 'Critical').length} Critical Components
+                            {vehicle.type} • {vehicle.devices.filter(d => d.status === 'overdue' || (d.status === 'due' && d.criticality === 'critical')).length} Critical Components
                           </p>
                         </div>
                       </div>
@@ -154,7 +171,7 @@ export default function Home() {
                     {/* Issues Bar */}
                     <div className="bg-red-500/5 px-5 py-2 border-t border-red-500/10 flex items-center gap-2 text-xs text-red-300">
                       <AlertTriangle className="w-3 h-3" />
-                      <span>Detected Issues: {vehicle.devices.filter(d => d.status !== 'Good').map(d => d.name).join(', ')}</span>
+                      <span>Detected Issues: {vehicle.devices.filter(d => d.status !== 'upcoming' && d.status !== 'completed').map(d => d.name).join(', ')}</span>
                     </div>
                   </GlassCard>
                 </motion.div>
