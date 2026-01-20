@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/musal/OneDrive/Desktop/HMC%20tracker/src/app/loading.tsx"],"sourcesContent":["\r\nexport default function Loading() {\r\n    return (\r\n        <div className=\"min-h-screen bg-black flex items-center justify-center\">\r\n            <div className=\"animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500\"></div>\r\n        </div>\r\n    );\r\n}\r\n"],"names":[],"mappings":";;;;;;AACe,SAAS;IACpB,qBACI,qRAAC;QAAI,WAAU;kBACX,cAAA,qRAAC;YAAI,WAAU;;;;;;;;;;;AAG3B"}}]
+}

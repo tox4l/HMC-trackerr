@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/alerts/automated/route": "/api/alerts/automated",
+  "/api/notifications/send/route": "/api/notifications/send",
+  "/equipment/[id]/page": "/equipment/[id]",
+  "/equipment/new/page": "/equipment/new",
+  "/equipment/page": "/equipment",
+  "/favicon.ico/route": "/favicon.ico",
+  "/maintenance/page": "/maintenance",
+  "/notifications/page": "/notifications",
+  "/page": "/",
+  "/reports/page": "/reports",
+  "/settings/page": "/settings",
+  "/vehicle/[id]/page": "/vehicle/[id]",
+  "/vehicles/new/page": "/vehicles/new",
+  "/vehicles/page": "/vehicles"
+}

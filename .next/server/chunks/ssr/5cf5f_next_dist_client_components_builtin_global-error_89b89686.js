@@ -1,0 +1,3 @@
+module.exports=[26266,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(84434);a.n(d("[project]/OneDrive/Desktop/HMC tracker/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},35703,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(84434);a.n(d("[project]/OneDrive/Desktop/HMC tracker/node_modules/next/dist/client/components/builtin/global-error.js"))},6475,a=>{"use strict";a.i(26266);var b=a.i(35703);a.n(b)}];
+
+//# sourceMappingURL=5cf5f_next_dist_client_components_builtin_global-error_89b89686.js.map

@@ -1,0 +1,2218 @@
+[00:00:00.882] Server  LOG     ✓ Ready in 633ms
+[00:00:01.515] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.575] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:06:57.528] Server  LOG     ✓ Compiled in 271ms
+[00:07:26.208] Server  LOG     ✓ Compiled in 38ms
+[00:07:35.486] Server  LOG     ✓ Compiled in 41ms
+[00:08:25.426] Server  LOG     ✓ Compiled in 41ms
+[00:08:36.910] Server  LOG     ✓ Compiled in 39ms
+[00:09:32.336] Server  LOG     ✓ Compiled in 37ms
+[00:11:01.433] Server  LOG     ✓ Compiled in 40ms
+[00:11:26.732] Server  LOG     ✓ Compiled in 40ms
+[00:12:07.851] Server  LOG     ✓ Compiled in 71ms
+[00:12:24.921] Server  LOG     ✓ Compiled in 58ms
+[00:12:25.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:25.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:01.101] Server  LOG     ✓ Compiled in 43ms
+[00:13:29.087] Server  LOG     ✓ Compiled in 40ms
+[00:31:44.427] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:31:46.792] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:32:24.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:24.803] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ClientPageRoot Component={function NotificationsPage} serverProvidedParams={{...}}>
+      <NotificationsPage params={Promise} searchParams={Promise}>
+        <div className="min-h-scre...">
+          <main className="max-w-7xl ...">
+            <div>
+            <div>
+            <div>
+              <h2>
+              <div className="space-y-4">
+                <_c className="hover:shad...">
+                  <div ref={null} className="glass-card...">
+                    <_c8 className="p-6">
+                      <div ref={null} className="p-6 pt-0 p-6">
+                        <div className="flex items...">
+                          <div className="flex items...">
+                            <div>
+                            <div className="flex-1">
+                              <div className="flex items...">
+                                <h3 className="font-semib...">
++                                 Brake Pads
+-                                 Radio Communication
+                                  ...
+                                ...
+                              ...
+                          ...
+                ...
+
+[00:32:28.806] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:32:41.931] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:20:32.888] Server  LOG     ✓ Compiled in 96ms
+[01:21:09.237] Server  LOG     ✓ Compiled in 30ms
+[01:21:35.436] Server  LOG     ✓ Compiled in 67ms
+[01:21:35.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:35.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:33.878] Server  LOG     ✓ Compiled in 0ms
+[01:23:50.028] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:23:53.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:53.611] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/notificat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="/OneDrive/...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function NotificationsPage} serverProvidedParams={{...}}>
+                <NotificationsPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <main className="max-w-7xl ...">
+                      <div className="mb-8">
+                        <LinkComponent>
+                        <h1>
+                        <p>
+                        <div className="mt-4">
+                          <_c variant="secondary" className="px-3 py-1">
+                            <div ref={null} className="inline-fle...">
+                              <Bell>
++                             7
+-                             13
+                              ...
+                      ...
+            ...
+          ...
+
+[01:23:54.207] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:54.361] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ClientPageRoot Component={function NotificationsPage} serverProvidedParams={{...}}>
+      <NotificationsPage params={Promise} searchParams={Promise}>
+        <div className="min-h-scre...">
+          <main className="max-w-7xl ...">
+            <div>
+            <div>
+            <div>
+              <h2>
+              <div className="space-y-4">
+                <_c className="hover:shad...">
+                  <div ref={null} className="rounded-lg...">
+                    <_c8 className="p-6">
+                      <div ref={null} className="p-6 pt-0 p-6">
+                        <div className="flex items...">
+                          <div className="flex items...">
+                            <div>
+                            <div className="flex-1">
+                              <div className="flex items...">
+                                <h3 className="font-semib...">
++                                 Defibrillator
+-                                 Brake System
+                                  ...
+                                ...
+                              ...
+                          ...
+                ...
+
+[01:23:54.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:54.752] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/notificat..." tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="/OneDrive/...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function NotificationsPage} serverProvidedParams={{...}}>
+                <NotificationsPage params={Promise} searchParams={Promise}>
+                  <div className="min-h-scre...">
+                    <main className="max-w-7xl ...">
+                      <div className="mb-8">
+                        <LinkComponent>
+                        <h1>
+                        <p>
+                        <div className="mt-4">
+                          <_c variant="secondary" className="px-3 py-1">
+                            <div ref={null} className="inline-fle...">
+                              <Bell>
++                             9
+-                             13
+                              ...
+                      ...
+            ...
+          ...
+
+[01:24:00.313] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:24:50.365] Server  LOG     ✓ Compiled in 52ms
+[01:24:50.554] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:51.648] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/OneDrive/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1269.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[01:24:55.223] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:24:57.620] Server  LOG     ✓ Compiled in 29ms
+[01:26:36.288] Server  LOG     ✓ Compiled in 48ms
+[01:28:51.282] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:28:55.645] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:28:59.254] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:29:52.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:57.029] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:29:59.263] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:32:06.281] Server  LOG     ✓ Compiled in 65ms
+[02:27:37.531] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[03:01:31.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:02:10.844] Server  LOG     ✓ Compiled in 34ms
+[03:02:11.946] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:11.946] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:25.946] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:25.946] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:27.939] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:27.939] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:27.939] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:27.939] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:31.938] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:31.938] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:31.938] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:31.938] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:33.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:02:33.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:04:29.565] Server  LOG     ✓ Compiled in 340ms
+[03:04:29.938] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:04:29.938] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:04:31.943] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:04:31.943] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:05.180] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:06:05.313] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:05.776] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:05.776] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.097] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:06.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:26.944] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:06:46.949] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:07:57.946] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.273] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:08:32.340] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:08:32.496] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.560] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:21.624] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.768] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.769] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:21.889] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:21.951] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.071] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.075] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:22.135] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.279] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.632] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:22.692] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.789] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:22.793] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:22.853] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:09:23.002] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.347] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:10:04.419] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:04.565] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.044] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:10:05.110] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:05.264] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.618] Server  ERROR   ⨯ ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:10:31.725] Browser ERROR   uncaughtError: Error: ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+
+
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:10:31.882] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `glass`
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[03:11:43.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:05.860] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[03:13:57.247] Server  WARN    Error: Route "/vehicle/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[03:21:29.907] Server  LOG     ✓ Compiled in 52ms
+[03:21:34.319] Server  LOG     ✓ Compiled in 406ms
+[03:21:36.061] Server  LOG     ✓ Compiled in 72ms
+[03:21:38.095] Server  LOG     ✓ Compiled in 134ms
+[03:22:02.565] Browser WARN    THREE.WebGLProgram: Program Info Log: (224,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision
+(223,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision
+(224,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision
+(223,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision
+(224,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision
+(210,10-67): warning X4008: floating point division by zero
+(210,10-67): warning X4008: floating point division by zero
+(210,10-67): warning X4008: floating point division by zero
+
+
+ 
+[03:22:05.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:22:55.893] Server  LOG     ✓ Compiled in 36ms
+[03:23:12.428] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[03:23:26.980] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[03:24:03.485] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[03:24:23.047] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:25.781] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:29.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:29:28.946] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[03:37:15.831] Server  LOG     ✓ Compiled in 80ms
+[03:37:17.880] Server  LOG     ✓ Compiled in 35ms
+[03:37:19.778] Server  LOG     ✓ Compiled in 35ms
+[03:37:54.849] Server  LOG     ✓ Compiled in 51ms
+[03:38:10.282] Server  LOG     ✓ Compiled in 30ms
+[03:38:13.028] Server  LOG     ✓ Compiled in 54ms
+[03:45:38.541] Server  LOG     ✓ Compiled in 99ms
+[03:46:44.136] Server  LOG     ✓ Compiled in 88ms
+[03:47:34.447] Server  LOG     ✓ Compiled in 89ms
+[03:49:24.774] Server  LOG     ✓ Compiled in 66ms
+[03:49:26.957] Server  LOG     ✓ Compiled in 82ms
+[03:59:26.070] Server  LOG     ✓ Compiled in 34ms
+[03:59:26.940] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:00:22.411] Server  LOG     ✓ Compiled in 21ms
+[04:00:22.939] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:01:30.387] Server  LOG     ✓ Compiled in 12ms
+[04:01:30.948] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:01:47.653] Server  LOG     ✓ Compiled in 64ms
+[04:01:47.949] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:01:49.597] Server  LOG     ✓ Compiled in 11ms
+[04:01:49.941] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:01:53.951] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:02:26.940] Browser ERROR   ./OneDrive/Desktop/HMC tracker/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: C:\Users\musal\OneDrive\Desktop\HMC tracker\src\app\globals.css:1:1: Cannot apply unknown utility class `rounded-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (C:\Users\musal\OneDrive\Desktop\HMC tracker\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/OneDrive/Desktop/HMC tracker/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./OneDrive/Desktop/HMC tracker/src/app/globals.css [Client Component Browser]
+    ./OneDrive/Desktop/HMC tracker/src/app/layout.tsx [Server Component]
+[04:12:35.801] Server  LOG     ✓ Compiled in 132ms
+[04:16:51.841] Server  LOG     ✓ Compiled in 95ms
+[04:17:25.427] Server  LOG     ✓ Compiled in 66ms
+[04:17:55.549] Server  LOG     ✓ Compiled in 72ms
+[04:21:08.299] Server  LOG     ✓ Compiled in 87ms
+[04:21:13.303] Server  LOG     ✓ Compiled in 32ms
+[04:24:49.487] Server  LOG     ✓ Compiled in 66ms
+[04:33:00.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:33:00.374] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <main className="max-w-7xl ...">
+      <Reveal>
+      <Reveal>
+      <div className="flex flex-...">
+        <Reveal delay={0} fullHeight={true}>
+          <div ref={{current:null}} className="" style={{position:"...", ...}}>
+            <motion.div variants={{hidden:{...}, ...}} initial="hidden" animate="hidden" transition={{duration:0.6, ...}} ...>
+              <div style={{height:"100%", ...}} ref={function useMotionRef.useCallback}>
+                <LinkComponent href="/equipment..." className="block h-full">
+                  <a className="block h-full" ref={function} onClick={function onClick} ...>
+                    <GlassCard hoverEffect={true} className={"group cu..."}>
+                      <div onClick={undefined} className="glass-card...">
+                        <div className="flex flex-...">
+                          <div>
+                          <div className="grid grid-...">
+                            <div>
+                            <div>
+                            <div>
+                              <label>
+                              <div className="font-mono text-slate-200">
++                               3/9/2026
+-                               4/16/2026
+        ...
+
+[04:33:44.335] Server  LOG     ---------------------------------------------------
+[04:33:44.336] Server  LOG     📧 [MOCK EMAIL SERVICE] - No SMTP Configured
+[04:33:44.336] Server  LOG     To: fleet.manager@hamad.qa
+[04:33:44.336] Server  LOG     Subject: New Vehicle Registered: Alpha unit
+[04:33:44.336] Server  LOG     ---------------------------------------------------
